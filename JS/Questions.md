@@ -1,5 +1,7 @@
 # Questions
 
+GreatFrontend Quiz
+
 - hoisting
 - var vs let vs const
 - == vs ===
@@ -15,4 +17,30 @@
 - .bind function
 - currying
 - arrow functions
+- closures
+- higher order function - map,filter and reduce
+- event capturing
+- synchronous vs asynchronous functions
+- callback hell or pyramid of doom
+- Promises vs callback functions
+- polyfills
+- commonJS vs ES modules
+- primitive vs non-primitive data types
+- type coercion
+- spread operator
+- Map vs Set
+- Server sent events
+- garbage collection
+- debouncing vs throttling
+- destructuring objects
+- test driven development
+- singleton pattern
+- tree shaking
+- shallow copy vs deep copy
+- optimize network requests
+- prevent SQL injection vulnerabilities
+- progressive web apps (PWA)
+- Set and Map
+- module bundler
+- cross site scripting (XSS) attacks
 -

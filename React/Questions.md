@@ -1,5 +1,7 @@
 # Questions
 
+GreatFrontend Quiz
+
 - React
 - Pros
 - React node vs React element
@@ -10,4 +12,37 @@
 - hooks
 - rules of hooks
 - useEffect vs useLayoutEffect
-- dependency array of JS
+- dependency array of useEffect
+- useRef
+- useCallback & React.memo
+- useMemo
+- useReducer
+- useId
+- Rerendering
+- Performance optimizations on rendering
+- React fragments
+- forwardRef()
+- mutating state
+- Error boundaries
+- testing libraries
+- hydration
+- AJAX requests - data fetching
+- React portals
+- React strict mode
+- localize a react component - switch lang
+- AbortController
+- code splitting - Suspense & React.lazy
+- Performance optimizations on context
+- higher order components
+- unidirectional data flow
+- server side rendering
+- static generation
+- presentational vs container component pattern
+- render props
+- React anti-patterns
+- state vs context vs redux
+- composition pattern
+- virtual DOM
+- React Fiber - incremental rendering
+- reconcilation
+-
