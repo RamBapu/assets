@@ -43,4 +43,3 @@ GreatFrontend Quiz
 - Set and Map
 - module bundler
 - cross site scripting (XSS) attacks
--

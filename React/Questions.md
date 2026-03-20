@@ -45,4 +45,4 @@ GreatFrontend Quiz
 - virtual DOM
 - React Fiber - incremental rendering
 - reconcilation
--
+- prop drilling

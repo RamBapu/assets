@@ -8,4 +8,3 @@ GreatFrontend Quiz
 - CSS selector speficity
 - block vs inline-block vs inline
 - position property
--
