@@ -33,7 +33,7 @@ Codevolution video
 - params vs searchParams
 - use hook from react 19
 - useRouter function
-- redirect function
+- redirect function - proxy file
 - Templates
 - loading.tsx
 - error.tsx - client ErrorBoundary
@@ -48,4 +48,31 @@ Codevolution video
 - Intercepting routes convention
 - Parallel intercepting routes - for pic modals
 - Route handlers
--
+- route.ts
+- dyanmic route handlers
+- URL Query Params
+- Request headers - headers() function
+- Cookies - cookies() function
+- Redirects in route handlers
+- Caching - 'force-static' only in prod
+- Middleware
+- Fetching data with server components
+- data fetching patterns
+- fetching from db
+- data mutations
+- forms with server actions
+- server actions benefits
+- pending status with useFormStatus
+- form validation with useActionState
+- pending vs isPending
+- update and delete server action
+- useoptimistic hook
+- Form component
+
+Questions
+
+- Image Optimization
+- Font optimization
+- OpenGraph images
+- Prerendering vs Prefetching vs Partial prerendering (PPR)
+- Next 16 features
