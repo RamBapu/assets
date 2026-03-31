@@ -4,6 +4,14 @@
 
 Agile is an iterative and incremental software development approach that focuses on delivering small, working features frequently while adapting to changing requirements.
 
+### Core Phases of Agile
+
+1. Requirements - Defining what to build
+2. Design - Technical approach discussion
+3. Development - Building the functionality
+4. Testing - Ensuring the feature works as expected
+5. Deployment - Releasing the increment and gathering review
+
 ### Core values of Agile
 
 Agile Manifesto
@@ -50,9 +58,16 @@ A short (15-minute) meeting where team members discuss:
 - What they’ll do today
 - Any blockers
 
+### Sprint Review
+
+Sprint Review focuses on the product and feedback from the stakeholders
+
+- Showcase Done items
+- Gather feedback from stakeholders
+
 ### Retrospective
 
-A meeting at the end of a sprint to reflect on:
+A meeting at the end of a sprint to reflect on - focuses on the process
 
 - What went well
 - What didn’t
@@ -63,3 +78,7 @@ A meeting at the end of a sprint to reflect on:
 - Product Backlog
 - Spring Backlog
 - Increment
+
+### Sprint Goal
+
+A Sprint Goal is a high-level, one-sentence objective for the Scrum team, finalized during Sprint Planning, that defines the "why" behind the sprint's work.
