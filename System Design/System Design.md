@@ -88,7 +88,9 @@ If 20 percent of your system is always sequential, no amount of extra machines w
 ### Stateful vs Stateless Architecture
 
 - A **stateful** service remembers user context between requests, often storing session data locally.
-- A **stateless** service treats every request as new, relying on external stores like caches or databases for any state.
+- A **stateless** service treats every request as new, sending tokens in every request.
+
+### Serverless functions
 
 **Serverless** lets you run small functions in the cloud without managing servers directly. You pay only when your code runs, and the platform handles scaling and infrastructure for you.
 
@@ -381,3 +383,75 @@ In interviews, pub sub often appears in event driven designs like activity feeds
 **OAuth 2.0** is a framework for delegated authorization. It lets users grant an application limited access to their resources without sharing passwords.
 
 **OIDC** (OpenID Connect) builds on OAuth 2.0 to add authentication, letting clients verify who the user is and get user identity information. This is the basis of many “Login with X” flows.
+
+### Webhooks
+
+### Core Web Vitals
+
+## Token Concepts
+
+### Access Token vs Refresh Token
+
+Access token
+
+- Short-lived (e.g., 15 min)
+- Sent in every API request
+- Stored in **memory / HTTP-only cookie - stateless**
+
+Refresh token
+
+- Long-lived (e.g., 7–30 days)
+- Used to generate new access tokens
+- Stored securely (DB + HTTP-only cookie) - stateful
+
+Login flow
+
+1. User sends email + password
+2. Validate password (bcrypt)
+3. Generate Access Token (15 min)
+4. Generate Refresh Token (store in DB)
+5. Send:
+   - Access Token → response body
+   - Refresh Token → HTTP-only cookie
+
+Refresh token flow
+
+1. Client sends refresh token (cookie)
+2. Verify token
+3. Check DB (token exists & not revoked)
+4. Issue new access token
+
+Logout flow
+
+1. Delete refresh token from DB
+2. Clear cookie
+
+### Stateless token
+
+A stateless access token is a self-contained token, typically a JWT, that carries user identity and metadata within itself. The server validates it using a signature without quering a database, making it highly scalable and ideal for distributed systems
+
+How it works
+
+1. User logs in
+2. Server generates JWT (signed)
+3. Client sends token in every request
+4. Server verifies signature
+5. Server allows/denies access
+
+### SSO Architecture
+
+Login once → access Admin Panel, Analytics, Dashboard
+
+Frontend → API Gateway → Microservices
+↓
+Auth Service (central)
+
+How it works
+
+1. User clicks Login with Google
+2. Backend centralized auth server redirects to IDP (Identity Provider) - Google
+3. Google returns token
+4. API Backend validates
+5. Create internal session/JWT
+6. JWT sent to all services
+7. Services verify the token (no DB call)

@@ -76,6 +76,11 @@ p { } / element
 _.class { } /_ class
 _#id { } /_ id
 
+### Pseudo selectors
+
+**pseudo-selectors** are keywords added to standard selectors to target elements based on their **state** , **position** , or **specific parts** that aren't reachable via standard classes or IDs.
+Two types - pseudo classes , pseudo elements
+
 ### Pseudo classes vs Pseudo elements
 
 Pseudo-classes define the state of an element like `:hover`, `:focus`, while pseudo-elements target specific parts of elements like `::before`, `::after`. Pseudo-classes use a single colon, pseudo-elements use double colon.

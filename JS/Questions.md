@@ -3,11 +3,12 @@
 GreatFrontend Quiz
 
 - hoisting
+- temporal dead zone
 - var vs let vs const
 - == vs ===
 - event loop
 - event delegation
-- event bubbling
+- event.target vs event.currentTarget
 - synthetic events
 - this keyword
 - cookies vs localStorage vs sessionStorage
@@ -17,23 +18,31 @@ GreatFrontend Quiz
 - .bind function
 - currying
 - arrow functions
+- anonymous functions / callback functions
 - closures
+- lexical scope
 - higher order function - map,filter and reduce
+- event bubbling
 - event capturing
 - synchronous vs asynchronous functions
 - callback hell or pyramid of doom
-- Promises vs callback functions
+- sequential / parallel data fetching
+- Promise.all
+- AJAX pros and cons
+- AbortController
 - polyfills
 - commonJS vs ES modules
 - primitive vs non-primitive data types
 - type coercion
 - spread operator
+- array destructuring vs object destructuring
 - Map vs Set
 - Server sent events
 - garbage collection
+- callback function
 - debouncing vs throttling
 - destructuring objects
-- test driven development
+- test driven development (TDD)
 - singleton pattern
 - tree shaking
 - shallow copy vs deep copy
@@ -43,3 +52,4 @@ GreatFrontend Quiz
 - Set and Map
 - module bundler
 - cross site scripting (XSS) attacks
+- JS is single threaded
