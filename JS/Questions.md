@@ -28,6 +28,7 @@ GreatFrontend Quiz
 - callback hell or pyramid of doom
 - sequential / parallel data fetching
 - Promise.all
+- AJAX requests - data fetching
 - AJAX pros and cons
 - AbortController
 - polyfills

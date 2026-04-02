@@ -10,6 +10,65 @@
 
 Component → dispatch(action) → reducer → store updates → UI re-renders
 
+```js
+// actions.js
+export const increment = () => ({ type: 'INCREMENT' });
+
+// reducer.js
+const initialState = { count: 0 };
+
+function counterReducer(state = initialState, action) {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { ...state, count: state.count + 1 };
+    default:
+      return state;
+  }
+}
+
+export default counterReducer;
+
+// store.js
+import { createStore } from 'redux';
+import counterReducer from './reducer';
+
+const store = createStore(counterReducer);
+
+export default store;
+
+// Counter.js
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { increment } from './actions';
+
+function Counter() {
+  const count = useSelector((state) => state.count);
+  const dispatch = useDispatch();
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => dispatch(increment())}>Increment</button>
+    </div>
+  );
+}
+
+// App.js
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './store';
+import Counter from './Counter';
+
+function App() {
+  return (
+    <Provider store={store}>
+      <Counter />
+    </Provider>
+  );
+}
+
+```
+
 ### Redux Terminologies
 
 - store to hold app state
@@ -38,7 +97,7 @@ Component → dispatch(action) → reducer → store updates → UI re-renders
 
 ### Redux toolkit example
 
-```
+```js
 // src/app/store.js
 
 import { configureStore } from "@reduxjs/toolkit";
@@ -98,7 +157,7 @@ const userSlice = createSlice({
 export default userSlice.reducer;
 ```
 
-```
+```js
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
@@ -108,11 +167,11 @@ import App from "./App";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <App />
-  </Provider>
+  </Provider>,
 );
 ```
 
-```
+```js
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUsers } from "./features/users/userSlice";

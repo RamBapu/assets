@@ -26,11 +26,9 @@ GreatFrontend Quiz
 - Error boundaries
 - testing libraries
 - hydration
-- AJAX requests - data fetching
 - React portals
 - React strict mode
 - localize a react component - switch lang
-- AbortController
 - code splitting - Suspense & React.lazy
 - Performance optimizations on context
 - higher order components
@@ -45,4 +43,13 @@ GreatFrontend Quiz
 - virtual DOM
 - React Fiber - incremental rendering
 - reconcilation
+- React Suspense
+- lazy loading
+
+Questions
+
+- React 19
 - prop drilling
+- axios over fetch
+- axios interceptors
+- Promise.all vs Promise.allSelected
