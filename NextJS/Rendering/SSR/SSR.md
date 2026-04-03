@@ -12,6 +12,8 @@ Hydration
 
 > React takes control of the browser and reconstructs the component tree in memory, using the server rendered HTML as blueprint.
 > It carefully maps out the interactive elements to go and hooks up the JS logic.
+>
+> It is reponsible for adding event listeners and initiallizing state.
 
 Pros:
 

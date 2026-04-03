@@ -53,3 +53,4 @@ Questions
 - axios over fetch
 - axios interceptors
 - Promise.all vs Promise.allSelected
+- improve CWV in React

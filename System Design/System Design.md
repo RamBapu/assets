@@ -388,7 +388,15 @@ In interviews, pub sub often appears in event driven designs like activity feeds
 
 ### Core Web Vitals
 
-## Token Concepts
+Core Web Vitals (CWV) are =a set of three specific, user-centric metrics created by Google to measure real-world performance, interactivity, and visual stability= . They are crucial ranking factors that help identify how quickly a page loads ( **LCP** ), responds to user input ( **INP** ), and remains stable while loading ( **CLS** ).
+
+**Key Core Web Vitals Metrics:**
+
+- **[Largest Contentful Paint](https://www.google.com/search?q=Largest+Contentful+Paint&oq=core+web&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCQgBEEUYORiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM0MDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjFr5LG79CTAxWTcGwGHRdeOmAQgK4QegYIAQgAEAo) (LCP):** **Measures** _loading_ **speed—how long it takes for the largest image or text block to load, ideally within 2.5 seconds.**
+- **[Interaction to Next Paint](https://www.google.com/search?q=Interaction+to+Next+Paint&oq=core+web&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCQgBEEUYORiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM0MDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjFr5LG79CTAxWTcGwGHRdeOmAQgK4QegYIAQgAEAw) (INP):** **Measures** _interactivity_ **—how quickly a page responds to user actions (clicks, taps)**. A good response time is under 0.2 seconds. _Note: INP replaced FID (First Input Delay) as a core metric._
+- **[Cumulative Layout Shift](https://www.google.com/search?q=Cumulative+Layout+Shift&oq=core+web&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCQgBEEUYORiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM0MDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjFr5LG79CTAxWTcGwGHRdeOmAQgK4QegYIAQgCEAE) (CLS):** **Measures** _visual stability_ **—how much elements on the page shift around while loading. A score of 0.1 or less is considered good.**
+
+**Google categorizes CWV results into "Good," "Needs Improvement," or "Poor." At least 75% of your page loads should meet the "Good" criteria to achieve a positive user experience.**
 
 ### Access Token vs Refresh Token
 
