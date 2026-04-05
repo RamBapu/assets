@@ -27,7 +27,7 @@ GreatFrontend Quiz
 - synchronous vs asynchronous functions
 - callback hell or pyramid of doom
 - sequential / parallel data fetching
-- Promise.all
+- Promise.all vs Promise.allSelected
 - AJAX requests - data fetching
 - AJAX pros and cons
 - AbortController
@@ -37,9 +37,10 @@ GreatFrontend Quiz
 - type coercion
 - spread operator
 - array destructuring vs object destructuring
-- Map vs Set
+- Map vs Set, WeakMap vs WeakSet
 - Server sent events
 - garbage collection
+- memory leaks
 - callback function
 - debouncing vs throttling
 - destructuring objects
@@ -54,3 +55,5 @@ GreatFrontend Quiz
 - module bundler
 - cross site scripting (XSS) attacks
 - JS is single threaded
+- Heap vs Stack memory in JS
+- Promise chaining

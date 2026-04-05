@@ -32,6 +32,7 @@ GreatFrontend Quiz
 - code splitting - Suspense & React.lazy
 - Performance optimizations on context
 - higher order components
+- design patterns in react
 - unidirectional data flow
 - server side rendering
 - static generation
@@ -44,7 +45,7 @@ GreatFrontend Quiz
 - React Fiber - incremental rendering
 - reconcilation
 - React Suspense
-- lazy loading
+- lazy loading images
 
 Questions
 
@@ -52,5 +53,4 @@ Questions
 - prop drilling
 - axios over fetch
 - axios interceptors
-- Promise.all vs Promise.allSelected
 - improve CWV in React
