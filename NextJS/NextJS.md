@@ -4,21 +4,19 @@ Codevolution video
 
 - What is NextJS
 - Why NextJS
-- .next folder
 - RSC architecture
 - client vs server components
 - Routing
 - Routing conventions
-- layout & page
 - Nested Routes
 - Dynamic Routes - params
 - Nested Dynamic routes
 - catch-all segments
 - optional catch-all segments
 - not-found page
-- notFound function
+- notFound function in CC
 - usePathname function - client not-found page
-- File colocation
+- File collocation
 - Private folders
 - Route groups
 - Root Layouts
@@ -26,10 +24,11 @@ Codevolution video
 - Multiple root layouts
 - Routing metadata
 - Metadata rules
-- metadata obj
-- generateMetadata function
-- title params - template,default,absolute
-- client-side Navigation - replace prop
+- metadata obj in SC
+- generateMetadata function in SC
+- metadata in CC
+- title params - default, template, absolute
+- client-side Navigation - link component, replace prop
 - params vs searchParams
 - use hook from react 19
 - useRouter function
@@ -39,9 +38,9 @@ Codevolution video
 - error.tsx - client ErrorBoundary
 - Component Hierarchy
 - reset function - startTransition, useRouter function
-- global-error.tsx - only in prod
+- global-error.tsx - only in prod with html and body tags
 - Parallel routes - slots
-- features of parallel routes
+- features of parallel routes - independent route handling, sub-navigation
 - unmatched routes - default.tsx
 - conditional routes
 - Intercepting routes - for modals

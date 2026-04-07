@@ -16,7 +16,6 @@ GreatFrontend Quiz
 - null vs undefined
 - .call vs .apply function
 - .bind function
-- currying
 - arrow functions
 - anonymous functions / callback functions
 - closures
@@ -57,3 +56,4 @@ GreatFrontend Quiz
 - JS is single threaded
 - Heap vs Stack memory in JS
 - Promise chaining
+- partial application vs currying
