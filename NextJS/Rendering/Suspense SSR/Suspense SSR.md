@@ -23,7 +23,9 @@ Selective Hydration
 Pros
 
 - Seamless integration
-  Cons
+
+Cons
+
 - entire JS bundle downloaded
 - React components get hydrated, even no interactivity
 - bulk of JS hydration work in users' devices
