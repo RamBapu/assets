@@ -22,4 +22,4 @@
 - cluster vs worker_thread
 - modules are singleton
 - error first callback
-- Promise.race() vs Promise.all
+- Promise.race() vs Promise.all()

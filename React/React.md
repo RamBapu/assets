@@ -54,3 +54,4 @@ Questions
 - axios over fetch
 - axios interceptors
 - improve CWV in React
+- lifting state up
