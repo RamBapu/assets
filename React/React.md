@@ -55,3 +55,6 @@ Questions
 - axios interceptors
 - improve CWV in React
 - lifting state up
+- virtualization
+- exponential backoff
+-

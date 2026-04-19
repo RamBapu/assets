@@ -1,5 +1,12 @@
 const str = "aabbcdde";
 
+// Using indexOf && lastIndexOf
+// function character(str) {
+//   for (let char of str) {
+//     if (str.indexOf(char) === str.lastIndexOf(char)) return char;
+//   }
+// }
+
 function character(str) {
   const map = new Map();
   for (let char of str) {

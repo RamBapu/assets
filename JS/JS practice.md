@@ -11,6 +11,8 @@
 - second_largest
 - duplicates
 - move_zeros
+- rotate_array
+- duplicates_inplace
 
 ### Strings
 
@@ -22,3 +24,10 @@
 - frequency
 - duplicates_string
 - non_repeating_character
+
+### Misc
+
+- fibonacci
+- two_sum
+- max_profit_of_stock
+- maximum_subarray

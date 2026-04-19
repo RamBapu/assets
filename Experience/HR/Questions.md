@@ -5,47 +5,79 @@
 Hi, Myself Ram. I have total of 5.5 years of experience in software developement, with last 2.5 years as a Product Developer in Lumel Technologies, Chennai. Prior to that, I have worked with ARUS and TCS in Bangalore.
 My primary expertise is in frontend development using React, where I’ve worked on building scalable, data-driven applications. I also have hands-on experience with the MERN stack and Next.js, which helps me understand backend integration and full-stack workflows.
 
-### What is Microsoft Fabric
+### Roles
 
-Microsoft Fabric - all in one platform that combines data engineering, data science, data warehousing, and business intelligence.
+Thanks for the opportunity. Before we discuss compensation, may I know what role I will be working on?
 
-It includes
+- What are the working hours?
+- Is this work from office,remote or hybrid?
 
-- Data Factory (data pipelines)
-- Data Engineering (Spark, notebooks)
-- Data Storage (Lakehouse, warehouse)
-- Real-time analytics
-- Power BI (for dashboards)
+### About company
 
-### What are Fabric semantic models
+I’ve done some research about Doyensys, and I really like the work culture and the focus on work-life balance. It seems like a place where I can contribute and grow long term, which is important to me.
 
-A semantic model organizes raw data into simple, meaningful business terms so that business users can easily create reports without understanding technical database structures
+Based on my research and understanding,
 
-A **semantic model** is a **clean, business-friendly layer on top of raw data**
+- For a Senior Consultant role, the range is around 18 LPA
+- For a Principal Consultant role, it’s closer to 20 LPA
 
-Raw data:
+### Salary Expectations
 
-tbl_sales → rev_amt, cust_id, dt_key
+Based on the roles and responsibilities, I am open to a competitive offer in the range of 15 to 20 LPA. Could you share the budget for this position?
 
-Semantic model:
+Based on my experience and current market standards, I am targeting in the range of 15 to 20 LPA
 
-Revenue
-Customer
-Date
+### Commitment
 
-Defines:
+If we can align on compensation, I’d be happy to commit long-term and contribute effectively to the team.
 
-- Measures (Revenue, Profit)
-- Relationships (Customer ↔ Orders)
+If we can align it closer to **20 LPA** , I’d be happy to proceed and commit long-term
 
-### Challenge
+### Negotiate for Doyensys
 
-_One of the biggest challenges I faced was building a **complex data grid with real-time simulation capabilities** on top of Fabric semantic models — where business users could tweak planning assumptions and instantly see forecasted outcomes._
+Thank you for the offer. I really like the opportunity, but I was expecting something closer to **20 LPA** , considering my experience, the US overlap requirement, and my current offer at 15 LPA. Is there flexibility to move towards that range?
 
-_The core challenge was **performance** . The grid had hundreds of rows with interdependent calculated cells — when a user changed one input, it triggered cascading recalculations across the entire dataset. With naive re-rendering, the UI would freeze for 2–3 seconds, which was unacceptable for a planning tool._
+Given that I already have a 15 LPA offer, I’m evaluating opportunities not just for a switch, but for the right long-term move.
 
-_My approach was three-pronged:_
+### Last step - JB
 
-_First, I **virtualized the grid** using a library like AG Grid or TanStack Virtual so only visible rows were in the DOM. Second, I moved the **recalculation logic to a Web Worker** so the main thread stayed unblocked during heavy computation. Third, I implemented **debounced updates with optimistic UI** — showing the user an immediate visual response while the actual model recalculation completed in the background._
+I understand. In that case, could we structure it with a **joining bonus of 5Lakhs?**
 
-_The result was a UI that felt near-instantaneous even with large datasets, and our business users could run forecasting simulations without interruption_
+### Negotiate
+
+Thank you for the offer. But I was expecting something close to 20 LPA based on my experience and current market standards. Is there any flexibility to move closer to that number?
+
+I have another offer from Infosys in the range of 15 LPA , but I'm really interested in this role. So is there any flexibility to go higher?
+
+### Extra benefits
+
+- Could you explain the compensation structure - the variable component?
+- Are there any benefits like health insurance or joining bouns?
+
+## If asked
+
+### Why not that company?
+
+because of the role, product exposure, and long-term growth.
+
+### Current CTC - 9 LPA
+
+I do understand that my current compensation is 9 LPA. But I am looking for a market-aligned correction based on my skills and experience, I believe 20 LPA would be a fair ask.
+
+I am looking for a role-based compensation rather than a percentage hike. So I believe 20 LPA would be a fair ask.
+
+### Career gap
+
+I had to prioritize my personal commitments during COVID. So I took a planned break and during that time, I focused on upskilling myself and stay updated to the market trends.
+
+I understand the concern. But my personal problems are resolved now and I am ready to commit long-term
+
+### Joining Date
+
+I also wanted to inform you about my joining timeline. I’ve already discussed with my current organization, and they’ve agreed to relieve me by Monday as there are no dependencies.
+
+However, due to some prior personal commitments that were planned earlier, I would be able to join on **May 18** .
+
+I wanted to be transparent about this upfront. I’m fully committed to joining and excited about the opportunity.
+
+I understand the urgency. I’ve already tried to optimize my timeline by getting an early release. This is the earliest I can commit realistically. Once I join, I’ll ensure full availability and commitment.

@@ -57,3 +57,5 @@ GreatFrontend Quiz
 - Heap vs Stack memory in JS
 - Promise chaining
 - partial application vs currying
+- structured clone vs JSON clone
+-
