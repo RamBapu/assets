@@ -17,6 +17,7 @@
 ### Strings
 
 - pallindrome
+- pallindrome_string
 - anagrams
 - reverse_string
 - reverse_words
