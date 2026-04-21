@@ -58,4 +58,4 @@ GreatFrontend Quiz
 - Promise chaining
 - partial application vs currying
 - structured clone vs JSON clone
--
+- Promise.race()
