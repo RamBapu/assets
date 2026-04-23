@@ -29,7 +29,7 @@
 - React portals
 - React strict mode
 - localize a react component - switch lang
-- code splitting - Suspense & React.lazy
+- code splitting - Suspense & React.lazy / dynamic imports
 - Performance optimizations on context
 - higher order components
 - design patterns in react

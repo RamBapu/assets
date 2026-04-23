@@ -211,7 +211,7 @@ In Redux Toolkit, we use createAsyncThunk to handle API calls. It manages loadin
 ### Redux Quiz
 
 - Why reducer is pure function
-- Why state is immutable in redux
 - Can we have multiple reducers
 - Redux thunk vs redux saga
+- Redux saga example
 - How to introduce multiple middlewares in Redux
