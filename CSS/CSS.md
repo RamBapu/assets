@@ -129,5 +129,5 @@ transform: translateX(100px);
 }
 
 div {
-animation: slide 1s ease infinite;
+animation: slide 1s ease;
 }

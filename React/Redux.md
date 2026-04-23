@@ -207,3 +207,11 @@ export default App;
 ### Redux Toolkit async handling
 
 In Redux Toolkit, we use createAsyncThunk to handle API calls. It manages loading, success, and error states automatically. We define API logic inside the thunk and handle responses using extraReducers. This keeps async logic clean and centralized.
+
+### Redux Quiz
+
+- Why reducer is pure function
+- Why state is immutable in redux
+- Can we have multiple reducers
+- Redux thunk vs redux saga
+- How to introduce multiple middlewares in Redux

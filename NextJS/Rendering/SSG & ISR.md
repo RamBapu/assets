@@ -43,7 +43,7 @@ Cons:
 
 First request - serves static page
 
-After 60s, triggers new build - future requests gets new build
+After 60s, generates a new HTML and replace it with the old HTML - only the affected pages are regenerated and not the whole site gets redeployed.
 
 In the **Next.js App Router** , Incremental Static Regeneration (ISR) is implemented by using the `revalidate` option within the **fetch** API
 

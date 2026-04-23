@@ -50,10 +50,14 @@
 ### From Interviews and Research
 
 - React 19
+- React Router for routing
 - prop drilling
 - axios over fetch
 - axios interceptors
 - improve CWV in React
 - lifting state up
+- pass data from child to parent component
 - virtualization
 - exponential backoff
+- setState() is synchronous or asynchronous
+- setState() inside render method

@@ -2,8 +2,6 @@
 
 ### Array
 
-- debounce
-- throttle
 - sorting
 - split
 - flatten

@@ -16,17 +16,19 @@
 - null vs undefined
 - .call vs .apply function
 - .bind function
+- method borrowing
 - arrow functions
-- anonymous functions / callback functions
+- anonymous functions
+- immediately invoked function expressions (IIFEs)
 - closures
 - lexical scope
 - higher order function - map,filter and reduce
 - event bubbling
 - event capturing
+- use strict in JS
 - synchronous vs asynchronous functions
 - callback hell or pyramid of doom
 - sequential / parallel data fetching
-- Promise.all vs Promise.allSelected
 - AJAX requests - data fetching
 - AJAX pros and cons
 - AbortController
@@ -34,8 +36,9 @@
 - commonJS vs ES modules
 - primitive vs non-primitive data types
 - type coercion
-- spread operator
+- spread vs rest operator
 - array destructuring vs object destructuring
+- iterators vs generators
 - Map vs Set, WeakMap vs WeakSet
 - Server sent events
 - garbage collection
@@ -47,18 +50,26 @@
 - singleton pattern
 - tree shaking
 - shallow copy vs deep copy
+- unit vs integration vs end to end testing
 - optimize network requests
 - prevent SQL injection vulnerabilities
-- progressive web apps (PWA)
+- partial application vs currying
+- Promise.all() vs Promise.allSelected()
+- Promises
+- Promise chaining
 - Set and Map
 - module bundler
+- structured clone vs JSON clone
 - cross site scripting (XSS) attacks
+- Object.freeze
 
 ### From Interviews and Research
 
 - JS is single threaded
+- ES6 features
 - Heap vs Stack memory in JS
-- Promise chaining
-- partial application vs currying
-- structured clone vs JSON clone
-- Promise.race()
+- Promise.race() vs Promise.any()
+- forEach vs map function
+- scope chaining
+- slice vs splice array function
+- short circuiting - nullish coalescing (??)
