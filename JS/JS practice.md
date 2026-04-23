@@ -9,17 +9,17 @@
 - flatten
 - largest
 - second_largest
-- duplicates
+- remove_duplicates
+- duplicates_inplace
 - move_zeros
 - rotate_array
-- duplicates_inplace
 
 ### Strings
 
 - pallindrome
-- pallindrome_string
+- pallindrome_sentence
 - anagrams
-- reverse_string
+- reverse_word
 - reverse_words
 - reverse_each_word
 - frequency
@@ -32,3 +32,4 @@
 - two_sum
 - max_profit_of_stock
 - maximum_subarray
+- memoize_function

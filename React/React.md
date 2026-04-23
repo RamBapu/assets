@@ -1,6 +1,6 @@
 # Questions
 
-GreatFrontend Quiz
+### GreatFrontend Quiz
 
 - React
 - Pros
@@ -47,7 +47,7 @@ GreatFrontend Quiz
 - React Suspense
 - lazy loading images
 
-Questions
+### From Interviews and Research
 
 - React 19
 - prop drilling
@@ -57,4 +57,3 @@ Questions
 - lifting state up
 - virtualization
 - exponential backoff
--

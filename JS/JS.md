@@ -1,6 +1,6 @@
-# Questions
+# JS
 
-GreatFrontend Quiz
+### GreatFrontend Quiz
 
 - hoisting
 - temporal dead zone
@@ -53,6 +53,9 @@ GreatFrontend Quiz
 - Set and Map
 - module bundler
 - cross site scripting (XSS) attacks
+
+### From Interviews and Research
+
 - JS is single threaded
 - Heap vs Stack memory in JS
 - Promise chaining

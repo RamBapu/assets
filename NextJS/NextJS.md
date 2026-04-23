@@ -1,6 +1,6 @@
-# Questions
+# Next.js
 
-Codevolution video
+### Codevolution video
 
 - What is NextJS
 - Why NextJS
@@ -68,7 +68,7 @@ Codevolution video
 - useoptimistic hook
 - Form component
 
-Questions
+### From Interviews and Research
 
 - Image Optimization
 - Font optimization
