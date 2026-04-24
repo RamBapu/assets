@@ -5,7 +5,10 @@ const arr = [1, 2, 3, 5, 4];
 //   return arr.sort((a, b) => b - a)[0];
 // }
 
-// Second solution
+// Second solution - max
+console.log(Math.max(...arr));
+
+// Third solution
 function largest(arr) {
   let max = -Infinity;
 
