@@ -5,3 +5,4 @@ const obj = {
 };
 
 console.log(obj); // { a: 'three', b: 'two' }
+console.log(typeof obj); // object

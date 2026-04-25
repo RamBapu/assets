@@ -61,3 +61,4 @@
 - exponential backoff
 - setState() is synchronous or asynchronous
 - setState() inside render method
+- Design patterns in react

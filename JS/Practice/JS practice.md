@@ -31,3 +31,5 @@
 - max_profit_of_stock
 - maximum_subarray
 - memoize_function
+- question_1
+- question_2

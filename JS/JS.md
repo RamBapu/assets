@@ -73,3 +73,9 @@
 - scope chaining
 - slice vs splice array function
 - short circuiting - nullish coalescing (??)
+- CSRF attacks
+- SOLID principles
+- Object prototype in JS
+- .prototype vs proto in JS
+- Prototype chaining
+- Array.prototype to create a custom array method
