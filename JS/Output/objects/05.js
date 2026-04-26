@@ -7,4 +7,4 @@ const shape = {
 };
 
 console.log(shape.diameter()); // 20
-console.log(shape.perimeter()); // undefined
+console.log(shape.perimeter()); // NaN
