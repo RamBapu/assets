@@ -33,7 +33,8 @@ export const dynamic = 'force-dynamic' --> to force switch.
 
 f icon is used in terminal to show server-rendered on demand
 
-`﻿generateStaticParams()` function is used to define static HTML pages for featured products where the other products are statically rendered at run time. By default `﻿dynamicParams = true`
+`﻿generateStaticParams()` function is used to define static HTML pages for featured products where the other products are statically rendered at run time. By default `﻿dynamicParams = true  `
+If `﻿dynamicParams = false `Nextjs returns a 404 error for dynamic segments not included in the pre-rendered list
 
 dotted icon is used in terminal to show pre-rendered as static HTML
 

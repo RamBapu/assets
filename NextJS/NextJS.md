@@ -14,59 +14,69 @@
 - catch-all segments
 - optional catch-all segments
 - not-found page
-- notFound function in CC
-- usePathname function - client not-found page
-- File collocation
-- Private folders
-- Route groups
+- call not-found page with notFound() func
+- usePathname() hook - client not-found page based on URL routes
+- File colocation
+- Private folders (using underscore)
+- Route groups (using brackets())
+- Layouts
 - Root Layouts
 - Nested layouts
 - Multiple root layouts
 - Routing metadata
 - Metadata rules
 - metadata obj in SC
-- generateMetadata function in SC
-- metadata in CC
+- generateMetadata function for dynamic routes in SC
+- Is metadata possible in CC
 - title params - default, template, absolute
 - client-side Navigation - link component, replace prop
+- usePathname() hook to get active link
 - params vs searchParams
-- use hook from react 19
-- useRouter function
-- redirect function - proxy file
+- use hook for CC
+- router from useRouter hook
+- redirect function
 - Templates
 - loading.tsx
-- error.tsx - client ErrorBoundary
+- error.tsx - client ErrorBoundary with error parameter
 - Component Hierarchy
-- reset function - startTransition, useRouter function
-- global-error.tsx - only in prod with html and body tags
-- Parallel routes - slots
+- reset parameter function - startTransition, useRouter hook
+- global-error.tsx - client GlobalEror - only in prod with html and body tags
+- Parallel routes - slots (using @)
 - features of parallel routes - independent route handling, sub-navigation
 - unmatched routes - default.tsx
 - conditional routes
 - Intercepting routes - for modals
-- Intercepting routes convention
+- Intercepting routes convention - (.) , (..), (..)(..) , (...)
 - Parallel intercepting routes - for pic modals
 - Route handlers
 - route.ts
-- dyanmic route handlers
-- URL Query Params
-- Request headers - headers() function
-- Cookies - cookies() function
-- Redirects in route handlers
-- Caching - 'force-static' only in prod
-- Middleware
+- dyanmic route handlers with id - PATCH, DELETE
+- URL Query Params - request.nextUrl.searchParams
+- Request headers - await headers() function
+- Response headers - send it in response
+- Cookies - await cookies() function
+- Redirects in route handlers - redirect()
+- Caching - only GET - 'force-static' only in prod
+- ISR in caching - 'revalidate = 10'
+- Middleware - middleare func
+- redirect runs on config matcher
+- redirect on request.nextUrl.pathname
 - Fetching data with server components
-- data fetching patterns
+- request memoization
+- data fetching patterns - sequential, parallel
+- sequential - use suspense boundary
+- parallel - use Promise.all()
 - fetching from db
-- data mutations
 - forms with server actions
 - server actions benefits
-- pending status with useFormStatus
-- form validation with useActionState
+- useFormStatus - pending
+- useActionState - [state, formAction, isPending]
+- actions folder for server actions
 - pending vs isPending
-- update and delete server action
+- update and delete server action - revalidatePath()
 - useoptimistic hook
 - Form component
+- Form component benefits
 
 ### From Interviews and Research
 
