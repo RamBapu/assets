@@ -58,7 +58,7 @@
 - Redirects in route handlers - redirect()
 - Caching - only GET - 'force-static' only in prod
 - ISR in caching - 'revalidate = 10'
-- Middleware - middleare func
+- Middleware - middleware func
 - redirect runs on config matcher
 - redirect on request.nextUrl.pathname
 - Fetching data with server components
