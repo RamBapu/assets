@@ -91,7 +91,7 @@ function App() {
 
 - configureStore to combine all reducers
 - slices for each feature - state, actions and reducers
-- mutable logic converted to immutable updates
+- mutable logic converted to immutable updates by immer
 - Redux devtools enabled
 - middleware included (Redux thunk)
 
@@ -215,3 +215,4 @@ In Redux Toolkit, we use createAsyncThunk to handle API calls. It manages loadin
 - Redux thunk vs redux saga
 - Redux saga example
 - How to introduce multiple middlewares in Redux
+- immer in Redux toolkit

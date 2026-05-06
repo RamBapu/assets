@@ -1,6 +1,6 @@
 const person = {
   name: "Ram",
-  greet: function () {
+  greet() {
     console.log("Hello", this.name);
   },
 };

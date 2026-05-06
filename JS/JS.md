@@ -10,7 +10,9 @@
 - event delegation
 - event.target vs event.currentTarget
 - synthetic events
-- this keyword
+- this keyword - within a regular func call, a method call, a constructor, a class constructor
+- explicitly binding 'this'
+- arrow functions using 'this'
 - cookies vs localStorage vs sessionStorage
 - script vs script async vs script defer
 - null vs undefined
@@ -79,3 +81,15 @@
 - .prototype vs proto in JS
 - Prototype chaining
 - Array.prototype to create a custom array method
+
+I need to study
+
+- this keyword
+- call vs apply
+- iterators vs generators
+- singleton pattern
+- Promise.race() vs Promise.any()
+- CSRF attacks
+- Object prototype in JS
+- .prototype vs proto in JS
+- Prototype chaining
