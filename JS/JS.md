@@ -81,3 +81,4 @@
 - .prototype vs proto in JS
 - Prototype chaining
 - Array.prototype to create a custom array method
+- proxies in JS

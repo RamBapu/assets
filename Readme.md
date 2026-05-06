@@ -8,6 +8,7 @@ Redux
 Typescript
 NextJS Rendering
 Projects
+JS Coding, JS Output
 
 MERN - Node js
 NEXT - Next js

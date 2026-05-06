@@ -16,3 +16,7 @@ Promise.all([promise1, promise2, promise3])
 Promise.allSettled([promise1, promise2, promise3]).then((results) => {
   results.forEach((result) => console.log(result));
 });
+
+// { status: 'fulfilled', value: 3 }
+// { status: 'rejected', reason: 'error' }
+// { status: 'fulfilled', value: 'foo' }
