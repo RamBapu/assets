@@ -69,15 +69,16 @@
 
 - JS is single threaded
 - ES6 features
+- **ECMAScript 2025** (ES2025) features
 - Heap vs Stack memory in JS
 - Promise.race() vs Promise.any()
 - forEach vs map function
 - scope chaining
 - slice vs splice array function
 - short circuiting - nullish coalescing (??)
-- CSRF attacks
-- SOLID principles
-- Object prototype in JS
+- CSRF attacks in React
+- SOLID principles in React
+- prototype property of objects in JS
 - .prototype vs proto in JS
 - Prototype chaining
 - Array.prototype to create a custom array method
