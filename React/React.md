@@ -13,6 +13,7 @@
 - rules of hooks
 - useEffect vs useLayoutEffect
 - dependency array of useEffect
+- pitfalls of useEffect
 - useRef
 - useCallback & React.memo
 - useMemo
@@ -51,6 +52,7 @@
 
 - React 19
 - React Router for routing
+- batching state updates
 - prop drilling
 - axios over fetch
 - axios interceptors
@@ -62,3 +64,4 @@
 - setState() is synchronous or asynchronous
 - setState() inside render method
 - useRef vs createRef method
+- microfrontend architecture

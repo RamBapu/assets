@@ -10,6 +10,23 @@ function updateUser(id: number, updates: Partial<User>) {
   // updates can have any combination of User properties
 }
 
+// All fields becomes mandatory
+const userObj: Required<User> = {
+  id: 1,
+  name: "Ram",
+  email: "hello",
+  role: "admin", // Shows error if anyone is missing
+};
+
+const userReadOnlyObj: Readonly<User> = {
+  id: 1,
+  name: "Ram",
+  email: "hello",
+  role: "admin",
+};
+
+// userReadOnlyObj.name = 'Vimal' // Shows error after initialized once
+
 // Only includes specified keys: { id: number; name: string; }
 type UserPreview = Pick<User, "id" | "name">;
 
