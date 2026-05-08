@@ -143,3 +143,8 @@ animation: slide 1s ease;
 Both em / rem can be used because it scales along with the browser settings unlike 'px'
 
 1 rem = 16 px & 2 em = 40 px (if parent element font-size is 20px)
+
+### justify content vs align items
+
+- flex-direction: row (default) - justify-content aligns items horizontally and align-items align items vertically
+- flex-direction: column - justify-content aligns items vertically and align-items align items horizontally

@@ -17,6 +17,5 @@ arr2[2] = 4;
 
 console.log(arr1); // [ 1, 2, 3, 4, 5 ]
 console.log(arr2); // [ 1, 2, 4, 4, 5 ]
-console.log(arr1 == arr2); // false - both different values
+console.log(arr1 == arr2); // false - both different values & both different array references
 console.log(arr1 === arr2); // false
-console.log(typeof arr1); // object

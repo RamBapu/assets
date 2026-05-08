@@ -10,5 +10,5 @@ NextJS Rendering
 Projects
 JS Coding, JS Output
 
-MERN - Node js
+MERN - Node js, Expess js, MySQL and MongoDB
 NEXT - Next js
