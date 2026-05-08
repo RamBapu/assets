@@ -1,7 +1,8 @@
 # Questions
 
 - HTML semantic tags
-- aria attributes
+- aria label vs aria-labeledby
+- Why to use button instead of giving a role as button
 - web accessibility
 - id vs className
 - CSS speficity

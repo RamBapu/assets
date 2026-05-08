@@ -42,6 +42,24 @@ ARIA (Accessible Rich Internet Applications) attributes enhance accessibility wh
 - aria-disabled
 - role
 
+### Aria-label vs Aria-labelledby
+
+`<button aria-label="Close">`X `</button>`
+
+Defines a string label for a element
+
+`<label id="label1">`Name `</label><input aria-labelledby="label1">`
+
+Connects an element to the text elsewhere by using id references
+
+If both are used, `aria-labelledby` takes priority
+
+### Why to use button instead of role
+
+We can use keyboard Tab key for navigating through buttons. Buttons respond to Enter or Click by default. Buttons have disabled state by default - preventing interaction
+
+But when giving role as button, we cannot do this. We need extra JS code & styling.
+
 ### Data attributes
 
 Data attributes are custom attributes used to store extra information directly on HTML elements, which can be accessed in JavaScript using the `dataset` property. They’re commonly used to pass IDs, states, or metadata between HTML and JS.
@@ -55,3 +73,9 @@ const id = e.target.dataset.id;
 ### Validate forms without JS
 
 - using HTML5 attributes - required, placeholder, type='email'
+
+### Id vs Class
+
+Id is used for unique identifier of a single element on a page where as class is a reusable identifier for a group of elements
+
+Id has higher speficity than class

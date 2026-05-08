@@ -64,4 +64,6 @@
 - setState() is synchronous or asynchronous
 - setState() inside render method
 - useRef vs createRef method
+- how to handle race conditions
+- accessibility features
 - microfrontend architecture

@@ -131,3 +131,15 @@ transform: translateX(100px);
 div {
 animation: slide 1s ease;
 }
+
+### em vs rem
+
+- em scales based on parent element
+- em compounds where the nested elements gets bigger or smaller
+- em is used for modular layout / internal scaling
+- rem scales based on root element `<html> `
+- rem doesnot compound and used for global layouts
+
+Both em / rem can be used because it scales along with the browser settings unlike 'px'
+
+1 rem = 16 px & 2 em = 40 px (if parent element font-size is 20px)
