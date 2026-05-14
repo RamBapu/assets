@@ -17,3 +17,30 @@ console.log(obj2); // { a: 1, b: { c: 3 } }
 
 // Shallow copy of array using ... spread operator, slice, concat
 // Deep copy of array using the above deep copy of objects
+
+// Deep cloning - array inside objects, nested objects, object inside arrays
+export default function deepClone(value) {
+  if (value === null || typeof value !== "object") {
+    return value;
+  }
+
+  if (Array.isArray(value)) {
+    const clonedArray = [];
+
+    for (let i = 0; i < value.length; i++) {
+      clonedArray[i] = deepClone(value[i]);
+    }
+
+    return clonedArray;
+  }
+
+  let clonedObj = {};
+
+  for (let key in value) {
+    if (Object.prototype.hasOwnProperty.call(value, key)) {
+      clonedObj[key] = deepClone(value[key]);
+    }
+  }
+
+  return clonedObj;
+}

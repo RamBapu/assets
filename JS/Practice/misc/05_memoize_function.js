@@ -1,12 +1,11 @@
 function memoize(fn) {
   const map = new Map();
-  return (...args) => {
+
+  return function (...args) {
     const key = JSON.stringify(args);
-    if (map.has(key)) {
-      console.log("cached result");
-      return map.get(key);
-    }
-    const result = fn(...args);
+    if (map.has(key)) return map.get(key);
+
+    const result = func.apply(this, args);
     map.set(key, result);
     return result;
   };
