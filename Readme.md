@@ -12,3 +12,5 @@ JS Coding, JS Output
 
 MERN - Node js, Expess js, MySQL and MongoDB
 NEXT - Next js
+
+- longest substring without repeating characters

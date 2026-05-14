@@ -67,3 +67,18 @@
 - how to handle race conditions
 - accessibility features
 - microfrontend architecture
+
+### Performance Optimizations / Optimization techniques in React
+
+- React.memo / Pure component
+- useCallback / useMemo hook
+- Code splitting
+- React virtualization / windowing
+- Optimization on state & rendering
+
+### How to make application responsive
+
+- mobile-first approach - TailwindCSS
+- flexbox and grid - use %, vh, rem instead of px
+- responsive images with lazy loading
+- media queries

@@ -35,6 +35,8 @@ The `display` property defines **how an element is rendered in the layout flow**
 
   Note: visibility - hidden → hidden but space remains
 
+  inline is used for span,a tags and block is used for div section tags
+
 ### Position property
 
 The `position` property controls **where an element appears** .
