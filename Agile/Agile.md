@@ -76,7 +76,7 @@ A meeting at the end of a sprint to reflect on - focuses on the process
 ### Sprint Artifacts
 
 - Product Backlog
-- Spring Backlog
+- Sprint Backlog
 - Increment
 
 ### Sprint Goal

@@ -9,6 +9,7 @@ Typescript
 NextJS Rendering
 Projects
 JS Coding, JS Output
+React Practice
 
 MERN - Node js, Expess js, MySQL and MongoDB
 NEXT - Next js

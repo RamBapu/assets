@@ -13,3 +13,7 @@ console.log(value); // 1
 // var declared variables are auto-initialized with an undefined value.
 // However, let and const variables are not initialized and accessing them before the declaration will result in a ReferenceError exception
 // because they are in a "temporal dead zone" from the start of the block until the declaration is processed.
+
+a = 10;
+console.log(a); // Returns 10 for var and Reference error for let / const
+var a;

@@ -49,7 +49,7 @@ The `position` property controls **where an element appears** .
 
 ### CSS Cascading
 
-**Cascading** means _which CSS rule gets applied when multiple rules target the same element_ . It depends on importance, specificity, and source order.
+**Cascading** means _which CSS rule gets applied when multiple rules target the same element_ . It depends on importance, specificity, and source code order.
 
 Cascading Order
 
@@ -60,13 +60,15 @@ Cascading Order
 
 ### CSS Specificity
 
-Specificity decides which selector is stronger
+**CSS specificity** is the algorithm browsers use to determine which CSS declaration is the most relevant to an element when multiple rules compete for the same property
 
-Inline (1000) > ID(100) > Class(10) > Element(1)
+Specificity is typically calculated using a three-part score (often represented as **A, B, C**)
+
+Inline (1,0,0,0) > ID(1,0,0) > Class(0,1,0) > Element(0,0,1) > Universal selector(\*)
 
 CSS decides in this order:
 
-1. `!important attribute`
+1. !important attribute overides normal speficity order
 2. Specificity
 3. Source order (last wins)
 
