@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from "react";
 
 function TextInputWithFocusButton() {
-  const inputEl = useRef(null);
+  const inputRef = useRef(null);
 
   useEffect(() => {
-    inputEl.current.focus();
+    inputRef.current.focus();
   }, []);
 
-  return <input ref={inputEl} type="text" />;
+  return <input ref={inputRef} type="text" />;
 }

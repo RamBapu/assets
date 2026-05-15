@@ -23,6 +23,7 @@
 - Performance optimizations on rendering
 - React fragments
 - forwardRef()
+- useImperativeHandle hook
 - mutating state
 - Error boundaries
 - testing libraries
@@ -43,7 +44,8 @@
 - state vs context vs redux
 - composition pattern
 - virtual DOM
-- React Fiber - incremental rendering
+- React Fiber - incremental rendering & prioritizaion with lanes
+- startTransition
 - reconcilation
 - React Suspense
 - lazy loading images
@@ -51,7 +53,6 @@
 ### From Interviews and Research
 
 - React 19
-- React Router for routing
 - batching state updates
 - prop drilling
 - axios over fetch
@@ -82,3 +83,20 @@
 - flexbox and grid - use %, vh, rem instead of px
 - responsive images with lazy loading
 - media queries
+
+### React 19 features
+
+- React compiler - automatically optimizes rendering eliminating the need of useCallback, useMemo and React.memo
+- Server components Architecture and Server actions
+- new hooks - use(), useFormStatus(), useActionState(), useOptimistic
+- ref as a prop instead of using forwardRef
+- React 19.2 - allows PPR (Partial prerendering) which enables pre-rendering of static parts of webpages while dynamic parts to be filled in later
+
+### Microfrontend architecture
+
+- Large frontend application is broken down into smaller independent deployable micro-apps
+- These micro-apps can be written in different React versions / different languages
+- Can be handled by different teams without waiting for other teams
+- Host (Shell) application handles authentication, logging and routing. It loads the remote applications on demand at runtime
+- Remote application exposes specific components / pages to the host application
+- MFEs are merged in the browser with Webpack Module Federation plugin
