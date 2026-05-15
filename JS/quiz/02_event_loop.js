@@ -13,3 +13,5 @@ setTimeout(() => {
 }, 0);
 
 console.log("end");
+
+// O/P: start end Promise 1 Timeout 1 Timeout 2
