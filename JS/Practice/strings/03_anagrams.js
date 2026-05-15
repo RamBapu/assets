@@ -17,7 +17,7 @@ function isAnagram(str1, str2) {
   }
 
   for (let char of str2) {
-    if (!map.get(char)) return false;
+    if (!map.has(char)) return false;
     map.set(char, map.get(char) - 1);
   }
 

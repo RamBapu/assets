@@ -21,10 +21,9 @@ const arr = [2, 1, 3, 3, 5, 1, 4];
 function removeDuplicates(arr) {
   const map = new Map();
   for (let num of arr) {
-    map.set(num, true);
+    if (!map.has(num)) map.set(num, true);
   }
-  const unique = [...new Set(map.keys())];
-  return unique;
+  return [...map.keys()];
 }
 
 const result = removeDuplicates(arr);
