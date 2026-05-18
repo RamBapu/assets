@@ -13,9 +13,9 @@
 - Nested Dynamic routes
 - catch-all segments
 - optional catch-all segments
-- not-found page
+- not-found page - server component
 - call not-found page with notFound() func
-- usePathname() hook - client not-found page based on URL routes
+- usePathname() hook - client not-found based on URL routes
 - File colocation
 - Private folders (using underscore)
 - Route groups (using brackets())
@@ -33,23 +33,23 @@
 - usePathname() hook to get active link
 - params vs searchParams
 - use hook for CC
-- router from useRouter hook
+- router from useRouter hook for button navigation
 - redirect function
 - Templates
 - loading.tsx
 - error.tsx - client ErrorBoundary with error parameter
 - Component Hierarchy
 - reset parameter function - startTransition, useRouter hook
-- global-error.tsx - client GlobalEror - only in prod with html and body tags
+- global-error.tsx - client GlobalError - only in prod with html and body tags
 - Parallel routes - slots (using @)
-- features of parallel routes - independent route handling, sub-navigation
+- features of parallel routes - independent route handling (for loading and error states), sub-navigation (for navigating through pages, filtering and sorting)
 - unmatched routes - default.tsx
 - conditional routes
 - Intercepting routes - for modals
 - Intercepting routes convention - (.) , (..), (..)(..) , (...)
 - Parallel intercepting routes - for pic modals
 - Route handlers
-- route.ts
+- route.ts - GET, POST
 - dyanmic route handlers with id - PATCH, DELETE
 - URL Query Params - request.nextUrl.searchParams
 - Request headers - await headers() function
