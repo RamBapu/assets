@@ -67,10 +67,12 @@
 - sequential - use suspense boundary
 - parallel - use Promise.all()
 - fetching from db
+- server actions
 - forms with server actions
 - server actions benefits
 - useFormStatus - pending
 - useActionState - [state, formAction, isPending]
+- You can't have server actions inside client but can call from client
 - actions folder for server actions
 - pending vs isPending
 - update and delete server action - revalidatePath()
@@ -85,3 +87,11 @@
 - OpenGraph images
 - Prerendering vs Prefetching vs Partial prerendering (PPR)
 - Next 16 features
+
+### Next 16 features
+
+- React compiler support
+- Stable Turbopack module bundler
+- layout deduplication
+- Hydration error indication for easier debugging
+- Parallel routes -default.tsx mandatory
