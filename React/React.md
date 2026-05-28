@@ -92,6 +92,13 @@
 - ref as a prop instead of using forwardRef
 - React 19.2 - allows PPR (Partial prerendering) which enables pre-rendering of static parts of webpages while dynamic parts to be filled in later
 
+### How to handle race conditions
+
+- use clean-up flag pattern in useEffect
+- use AbortController
+- using React Query library for data fetching
+- use() hook from React 19
+
 ### Microfrontend architecture
 
 - Large frontend application is broken down into smaller independent deployable micro-apps
