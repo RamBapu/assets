@@ -22,14 +22,12 @@ const arr2 = [2, 1, 3, 3, 5, 1, 4];
 
 function removeDuplicates2(arr) {
   const seen = new Set();
-  let i = 0;
 
-  while (i < arr.length) {
+  for (let i = 0; i < arr.length; i++) {
     if (seen.has(arr[i])) {
       arr.splice(i, 1);
     } else {
       seen.add(arr[i]);
-      i++;
     }
   }
 

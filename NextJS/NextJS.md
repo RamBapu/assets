@@ -42,7 +42,7 @@
 - reset parameter function - startTransition, useRouter hook
 - global-error.tsx - client GlobalError - only in prod with html and body tags
 - Parallel routes - slots (using @)
-- features of parallel routes - independent route handling (for loading and error states), sub-navigation (for navigating through pages, filtering and sorting)
+- features of parallel routes - independent route handling (for loading and error states), sub-navigation (for navigating through pages, filtering and sorting), conditional routes - (for logged in users)
 - unmatched routes - default.tsx
 - conditional routes
 - Intercepting routes - for modals

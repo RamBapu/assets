@@ -13,20 +13,14 @@ const arr = [1, 2, [3, [4, 5]]];
 // Third solution - flatten without array methods
 function flatten(arr) {
   let result = [];
-  let k = 0;
 
-  function helper(arr) {
-    for (let i = 0; i < arr.length; i++) {
-      if (Array.isArray(arr[i])) {
-        helper(arr[i]);
-      } else {
-        result[k] = arr[i];
-        k++;
-      }
+  for (let i = 0; i < arr.length; i++) {
+    if (Array.isArray(arr[i])) {
+      result = result.concat(flatten(arr[i]));
+    } else {
+      result.push(arr[i]);
     }
   }
-
-  helper(arr);
   return result;
 }
 
