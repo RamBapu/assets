@@ -14,10 +14,11 @@
 - explicitly binding 'this' using call / apply / bind
 - arrow functions using 'this'
 - cookies vs localStorage vs sessionStorage
-- script vs script async vs script defer
+- script vs script async vs script defer vs script type='module'
 - null vs undefined
 - .call vs .apply function
 - .bind function
+- partial application
 - method borrowing
 - arrow functions
 - anonymous functions

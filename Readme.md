@@ -9,9 +9,8 @@ NextJS Rendering
 JS Coding, JS Output
 JS Practice
 React Practice
-Projects
 
-MERN - Node js, Expess js, MySQL and MongoDB
+MERN - Node js, Expess js, SQL, ORM
 NEXT - Next js
 
 - longest substring without repeating characters

@@ -13,13 +13,13 @@
 - rules of hooks
 - useEffect vs useLayoutEffect
 - dependency array of useEffect
-- pitfalls of useEffect
 - useRef
 - useCallback & React.memo
 - useMemo
 - useReducer
 - useId
 - Rerendering
+- rerendering process
 - Performance optimizations on rendering
 - React fragments
 - forwardRef()
@@ -34,7 +34,6 @@
 - code splitting - Suspense & React.lazy / dynamic imports
 - Performance optimizations on context
 - higher order components
-- design patterns in react
 - unidirectional data flow
 - server side rendering
 - static generation
