@@ -95,3 +95,8 @@
 - layout deduplication
 - Hydration error indication for easier debugging
 - Parallel routes -default.tsx mandatory
+
+### Client side navigation vs Hot navigation
+
+When the whole page gets rerendered, it's hot navigation. This is done by using a tags.
+In Nextjs, we use Link component to do client side navigation, only the route gets rendered not the layout page. Link component also provides prefetching.
