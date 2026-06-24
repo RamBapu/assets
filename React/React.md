@@ -59,6 +59,7 @@
 - improve CWV in React
 - lifting state up
 - pass data from child to parent component
+- render vs commit phase
 - virtualization
 - exponential backoff
 - setState() is synchronous or asynchronous
@@ -74,6 +75,8 @@
 - useCallback / useMemo hook
 - Code splitting
 - React virtualization / windowing
+- Cache API responses using React Query
+- Debounce Search requests
 - Optimization on state & rendering
 
 ### How to make application responsive
