@@ -1,5 +1,9 @@
 # Questions
 
+### First Round - no Coding
+
+### Second Round - with Coding
+
 - Project
 - Complex frontend feature
 - Biggest challenge and how you overcome
@@ -10,7 +14,6 @@
 - debouncing vs throttling
 - useMemo vs React.memo
 - Reuse components
-
 - exponential backoff for retry
 - foreach vs map
 - synchronous vs asynchronous functions

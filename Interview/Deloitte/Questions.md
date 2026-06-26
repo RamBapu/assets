@@ -1,5 +1,7 @@
 # Questions
 
+### First Round - no Coding
+
 - HTML 5 features
 - semantic tags
 - web accessibility tags
@@ -15,3 +17,10 @@
 - redux structure
 - SSG vs ISR
 - Dynamic routes handling in NextJS
+
+### Second Round - inadequate interview because of no open positions
+
+- closures
+- What is ecmascript
+- project structure for a NextJS application
+- how do you render 1000 items

@@ -12,5 +12,3 @@ React Practice
 
 MERN - Node js, Expess js, SQL, ORM
 NEXT - Next js
-
-- longest substring without repeating characters

@@ -1,5 +1,7 @@
 # Questions
 
+### First Round - with Coding
+
 - HTML semantic tags
 - aria label vs aria-labeledby
 - Why to use button instead of giving a role as button
@@ -30,10 +32,7 @@
 - accessibility features
 - testing libraries
 - microfrontend architecture
-
-# Coding
-
-- closures - example
+- closures coding example
 - flatten array without JS methods
-- copy to clipboard
+- copy to clipboard coding in React
 - custom hook for debounce

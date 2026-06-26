@@ -1,5 +1,13 @@
 # Questions
 
+## Walkin React Interview
+
+### First Round - Coding
+
+- split the word with lowercase
+
+### Second Round - with Coding
+
 - axios over fetch
 - axios interceptors
 - react strict mode
@@ -13,8 +21,5 @@
 - forwardRef
 - virtual DOM - reconcilation
 - Redux - async thunk middleware
-
-### Coding
-
 - sorting without preset functions and find the second largest
 - Hello World --> hellO worlD

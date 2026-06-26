@@ -1,11 +1,11 @@
 # Questions
 
-### Coding
+### First Round - Coding
 
 - find the missing number in array
 - currying - return a function inside a function
 
-### Questions
+### Second Round - Questions + Coding
 
 - Hoisting output questions
 - String - number output questions
