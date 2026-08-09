@@ -18,6 +18,18 @@ push method to push a new node to the linked list in the end
 
 pop method to remove the last item from the linked list
 
-To do this pop, we need to iterate over the linked list, find the last element, point the prev element as tail and next of tail element to null
+To do this pop, we need to iterate over the linked list, find the last element, point the prev element as tail and set next of tail element to null
 
 here we have 2 values - **temp** and **prev.** Temp checks whether the node is the last element. Prev will be the before node of temp.
+
+### Unshift
+
+Unshift method is to add a new item at the start of the linked list
+
+3 steps involved in adding a new item to the start - first creating a new node, second setting the next of new node to be the prev start node, third setting the new node to be head node
+
+### Shift
+
+Shift method is used to remove the first item of the linked list
+
+2 steps involved - select the select element as the head, and set the next of first element to null
